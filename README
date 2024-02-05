@@ -1,0 +1,19 @@
+UI and API tests written for Crown Castle Technical assessment at CodingTestQuality.docx
+
+I chose to use playwright for this test, because to my understanding, that it what the Crown Castle team uses.
+I've installed and experimented a little with playwright before, so I was familiar with the general code structure.
+checkers.spec.ts was created in roughly 2 cumulative hours.
+blackjack.spec.ts was created in roughly 1 cumulative hour.
+
+Both test files have a series of sequential, inter-dependant tests.
+This is because most tests are dependant on prior steps - ex. to play checkers, the page must be navigated to.
+
+checkers.spec.ts
+    - got some kind of unwanted behavior from using Array.fill() for board construction
+    - page is extremely slow, requiring long waits between UI actions. Did not figure out minimum wait time.
+    - did not completely implement a strategy that could win at checkers.
+    - an assertion for the correct cell image after a move unexpectedly fails, commented on line 115
+
+blackjack.spec.ts
+    - correct way to ouput if either player has blackjack?
+    - was not sure how to pass request context the same way that browser context could be passed, or what that meant
