@@ -2,6 +2,7 @@ UI and API tests written for Crown Castle Technical assessment at CodingTestQual
 
 I chose to use playwright for this test, because to my understanding, that it what the Crown Castle team uses.
 I've installed and experimented a little with playwright before, so I was familiar with the general code structure.
+I would have liked to spend more time adding test cases and tidying up my code, but tried to keep the assignment to a reasonable timespan.
 checkers.spec.ts was created in roughly 2 cumulative hours.
 blackjack.spec.ts was created in roughly 1 cumulative hour.
 
